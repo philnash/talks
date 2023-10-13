@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin"/>
+    <title>Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-okaidia.min.css" integrity="sha512-5HvW0a7ihK3ro2KhwEksDHXgIezsTeZybZDIn8d8Y015Ny+t7QWSIjnlCTjFzlK7Klb604HLGjsNqU/i5mJLjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/assets/demo.css">
+    <style>
+      
+    </style>
+    
+  </head>
+  <body>
+    <main>
+      
+
+
+<header>
+  <h1>My Site</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#">Blog</a>
+      </li>
+      <li>
+        <a href="#">About</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section id="content">
+  <div>
+    <ul>
+      <li>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/random/200x200?query=1" alt="Random image from Unsplash">
+          </div>
+          <div class="card-content">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/random/200x200?query=2" alt="Random image from Unsplash">
+          </div>
+          <div class="card-content">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="card">
+          <div class="card-image">
+            <img src="https://source.unsplash.com/random/200x200?query=3" alt="Random image from Unsplash">
+          </div>
+          <div class="card-content">
+            <h3>Card title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>Built by philnash</p>
+</footer>
+    </main>
+    <script type="text/javascript">
+      let nextContent = `
+<h2>Some stuff</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae nibh lobortis, tincidunt magna fermentum, facilisis mauris. Fusce feugiat posuere est. Quisque vulputate sapien a lacus laoreet, ut varius elit tempus. Mauris eget elementum augue, quis congue ante. Quisque eu lacus et nisl placerat laoreet at eget neque. Praesent dictum nunc et orci hendrerit, vel varius ex porttitor. Maecenas lectus eros, rutrum sit amet rutrum id, maximus quis magna. Nulla nec erat orci. Pellentesque non bibendum lectus. Donec commodo dictum interdum.</p>
+<h3>Some other stuff</h3>
+
+<p>Nulla aliquet porta imperdiet. Maecenas pulvinar arcu eu felis convallis, quis rutrum eros dapibus. In eleifend accumsan iaculis. Aenean feugiat purus vehicula ante porttitor, sit amet bibendum lacus lacinia. Etiam ut maximus odio. Aliquam at libero tempor, faucibus metus sed, imperdiet arcu. Suspendisse potenti. Suspendisse ultricies nisl eget neque lacinia viverra vitae eget elit. Fusce ac venenatis arcu, molestie dictum ipsum. In posuere neque tincidunt, pretium eros sed, commodo libero. Curabitur ut massa a ipsum dictum suscipit. Phasellus et lobortis elit. Phasellus pharetra lobortis posuere. Quisque ut orci in risus tristique accumsan.</p>
+
+<p>Nullam at sollicitudin velit. Nullam vel turpis sit amet turpis accumsan aliquam. Quisque auctor lacus luctus justo euismod bibendum. Duis in est eros. Vestibulum dapibus arcu ac mauris auctor, ut scelerisque lectus interdum. Integer velit libero, semper a eleifend sit amet, aliquet eget lacus. Nam sagittis dui id ex tempus molestie. Aliquam a augue risus. Praesent feugiat mollis est, in maximus mi tincidunt non. Aenean et pulvinar mauris. Maecenas consequat augue quis arcu auctor, sit amet ullamcorper urna feugiat. In auctor turpis quis lacinia ullamcorper. Morbi sollicitudin vulputate justo, nec tincidunt velit gravida ut. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+`;
+
+const links = document.querySelectorAll("a");
+const content = document.getElementById("content");
+
+const updateTheDocument = () => {
+  const oldContent = content.innerHTML;
+  content.innerHTML = nextContent;
+  nextContent = oldContent;
+}
+
+links.forEach(link => {
+  link.addEventListener("click", e => {
+    e.preventDefault();
+    document.startViewTransition(() => updateTheDocument());
+  });
+});
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin"/>
+    <title>CSS Between the Pages</title>
+    <link rel="stylesheet" href="/assets/prism-okaidia.css"/>
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+      section#one { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#one h1 {
+  font-size: clamp(4rem, 6vw + 1rem, 10rem);
+}
+section#one p {
+  font-size: clamp(2rem, 3vw + 0.5rem, 4rem);
+  line-height: 1;
+}
+section#one .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+section#one .intro img {
+  height: 7em;
+  width: 7em;
+  border-radius: 50%;
+}
+
+    </style>
+    <link rel="prerender" href="/slide-2">
+  </head>
+  <body>
+    <main>
+      
+
+
+
+<section id="one">
+  <h1>CSS Between the Pages</h1>
+  <div class="intro">
+    <img src="/images/philnash.jpg" style="view-transition-name:avatar">
+    <div>
+      <p>Phil Nash</p>
+      <p>Developer advocate for Sonar</p>
+    </div>
+    <img src="/images/sonar-light.png">
+  </div>
+</section>
+
+
+
+
+
+<nav>
+  <p>
+    <a id="prev" href="/slide-0/">Previous slide</a>
+  </p>
+  <p>
+    <a id="next" href="/slide-2/">Next slide</a>
+  </p>
+</nav>
+    </main>
+    <script src="/assets/slides.js"></script>
+  </body>
+</html>

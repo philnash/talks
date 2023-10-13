@@ -1,0 +1,68 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin"/>
+    <title>CSS Between the Pages</title>
+    <link rel="stylesheet" href="/assets/prism-okaidia.css"/>
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+      section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section pre {
+  width: 800px;
+  margin: 0 auto;
+}
+
+    </style>
+    <link rel="prerender" href="/slide-21">
+  </head>
+  <body>
+    <main>
+      
+
+
+
+<section>
+  <h1>SPA transitions</h1>
+
+  <div style="view-transtion-name: naming">
+    <pre class="language-css"><code class="language-css"><span class="token selector">.header h1</span> <span class="token punctuation">{</span>
+  <span class="token property">view-transtion-name</span><span class="token punctuation">:</span> header<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+  </div>
+
+  <div style="view-transition-name: tree">
+    <pre class="language-txt"><code class="language-txt">::view-transition
+├─ ::view-transition-group(root)
+│  └─ ::view-transition-image-pair(root)
+│     ├─ ::view-transition-old(root)
+│     └─ ::view-transition-new(root)
+└─ ::view-transition-group(header)
+   └─ ::view-transition-image-pair(header)
+      ├─ ::view-transition-old(header)
+      └─ ::view-transition-new(header)</code></pre>
+  </div>
+</section>
+
+
+
+
+
+<nav>
+  <p>
+    <a id="prev" href="/slide-19/">Previous slide</a>
+  </p>
+  <p>
+    <a id="next" href="/slide-21/">Next slide</a>
+  </p>
+</nav>
+    </main>
+    <script src="/assets/slides.js"></script>
+  </body>
+</html>

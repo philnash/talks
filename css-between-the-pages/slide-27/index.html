@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin"/>
+    <title>CSS Between the Pages</title>
+    <link rel="stylesheet" href="/assets/prism-okaidia.css"/>
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+      section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+  ::view-transition-image-pair(root) {
+    background: #000;
+  }
+  ::view-transition-old(root) {
+    animation: fade-out 0.5s ease-in;
+  }  
+  ::view-transition-new(root) {
+    animation: slide-in 0.5s ease-out;
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-out {
+    from {
+      opacity: 1;
+      scale: 1;
+    }
+    to {
+      opacity: 0;
+      scale: 0.9;
+    }
+  }
+
+    </style>
+    <link rel="prerender" href="/slide-28">
+  </head>
+  <body>
+    <main>
+      
+
+
+<section>
+  <h1>MPA transitions</h1>
+
+</section>
+
+
+
+
+
+<nav>
+  <p>
+    <a id="prev" href="/slide-26/">Previous slide</a>
+  </p>
+  <p>
+    <a id="next" href="/slide-28/">Next slide</a>
+  </p>
+</nav>
+    </main>
+    <script src="/assets/slides.js"></script>
+  </body>
+</html>

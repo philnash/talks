@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="view-transition" content="same-origin"/>
+    <title>CSS Between the Pages</title>
+    <link rel="stylesheet" href="/assets/prism-okaidia.css"/>
+    <link rel="stylesheet" href="/assets/base.css">
+    <style>
+      section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h1 {
+  view-transition-name: spa-h1;
+  width: fit-content;
+}
+pre {
+  flex-grow: 1;
+  width: 800px;
+}
+
+    </style>
+    <link rel="prerender" href="/slide-6">
+  </head>
+  <body>
+    <main>
+      
+
+
+
+<section>
+  <h1>SPA transitions</h1>
+
+  <div style="view-transition-name: spa-html">
+    <pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>sample<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>castle.jpg<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">/></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">></span></span>Beautiful castle for sale.<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>javascript:playtransition()<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Play Transition<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></code></pre>
+  </div>
+
+  <div style="view-transition-name: spa-js">
+    <pre class="language-js"><code class="language-js"><span class="token keyword">var</span> sample<span class="token operator">=</span>document<span class="token punctuation">.</span><span class="token function">getElementById</span><span class="token punctuation">(</span><span class="token string">"sample"</span><span class="token punctuation">)</span>
+
+<span class="token keyword">function</span> <span class="token function">playtransition</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">var</span> newHTML <span class="token operator">=</span> '<span class="token operator">&lt;</span>img src<span class="token operator">=</span><span class="token string">"castleinside.jpg"</span><span class="token operator">/</span><span class="token operator">></span><span class="token operator">&lt;</span>br<span class="token operator">/</span><span class="token operator">></span>
+    <span class="token operator">&lt;</span>b<span class="token operator">></span>Interior is elegant yet modern<span class="token operator">!</span><span class="token operator">&lt;</span><span class="token operator">/</span>b<span class="token operator">></span>'
+  sample<span class="token punctuation">.</span>filters<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">apply</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  sample<span class="token punctuation">.</span>innerHTML <span class="token operator">=</span> newHTML<span class="token punctuation">;</span>
+  sample<span class="token punctuation">.</span>filters<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token function">play</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+  </div>
+  <div style="view-transition-name: spa-css"></div>
+</section>
+
+
+
+
+
+<nav>
+  <p>
+    <a id="prev" href="/slide-4/">Previous slide</a>
+  </p>
+  <p>
+    <a id="next" href="/slide-6/">Next slide</a>
+  </p>
+</nav>
+    </main>
+    <script src="/assets/slides.js"></script>
+  </body>
+</html>
