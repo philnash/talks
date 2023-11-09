@@ -1,1 +1,6 @@
 # Phil's Talks
+
+- [The top 5 JavaScript issues in all our codebases](./top-5-javascript-issues-in-all-our-codebases/)
+- [Four steps from JavaScript to TypeScript](./four-steps-from-javascript-to-typescript/)
+- [The state of passwordless auth on the web](./state-of-passwordless/)
+- [CSS between the pages](./css-between-the-pages/)
