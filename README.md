@@ -4,3 +4,4 @@
 - [Four steps from JavaScript to TypeScript](./four-steps-from-javascript-to-typescript/)
 - [The state of passwordless auth on the web](./state-of-passwordless/)
 - [CSS between the pages](./css-between-the-pages/)
+- [Conquering complexity: refactoring JavaScript projects](./conquering-complexity/)
