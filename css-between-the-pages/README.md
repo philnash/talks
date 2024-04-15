@@ -1,6 +1,6 @@
 # CSS Between the Pages
 
-These are the slides for [Phil Nash's](https://philna.sh/) talk from [LibertyJS](https://libertyjs.com/).
+These are the slides for [Phil Nash's](https://philna.sh/) talk CSS Between the Pages.
 
 ## > [The slides](https://philnash.github.io/talks/css-between-the-pages/slide-1/) <
 
