@@ -22,6 +22,7 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 - [LangChainJS](https://js.langchain.com/v0.2/docs/introduction/)
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
 - [LangFlow](https://dtsx.io/4eRKlxk)
+- [Movies++ app](https://github.com/datastax/movies_plus_plus/)
 ---
 
 - Follow Phil at [https://philna.sh/links](https://philna.sh/links)
