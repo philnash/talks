@@ -12,16 +12,17 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 - [Gemini model parameters](https://ai.google.dev/gemini-api/docs/models/generative-models#model-parameters)
 - [Prompt engineering with Gemini](https://ai.google.dev/gemini-api/docs/models/generative-models#prompt101)
   
-- [What is Retrieval-Augmented Generation?](https://www.datastax.com/guides/what-is-retrieval-augmented-generation)
+- [What is Retrieval-Augmented Generation?](https://dtsx.io/3zFG1kR)
 - [Embeddings with Gemini](https://ai.google.dev/gemini-api/docs/embeddings)
-- [Astra DB Vectorize](https://www.datastax.com/blog/simplifying-vector-embedding-generation-with-astra-vectorize)
+- [Astra DB Vectorize](https://dtsx.io/3Y1X3nq)
+- [Get started with Astra DB](https://dtsx.io/3LhINzg)
 
 - [Consuming a fetch as a Stream](https://www.datastax.com/blog/simplifying-vector-embedding-generation-with-astra-vectorize)
 
 - [LangChainJS](https://js.langchain.com/v0.2/docs/introduction/)
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
-- [LangFlow](https://www.langflow.org/)
+- [LangFlow](https://dtsx.io/4eRKlxk)
 ---
 
 - Follow Phil at [https://philna.sh/links](https://philna.sh/links)
-- [Learn more about DataStax and Astra DB](https://dtsx.io/45rOLXm)
+- [Learn more about DataStax and Astra DB](https://dtsx.io/3LhINzg)
