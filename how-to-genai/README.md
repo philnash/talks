@@ -23,6 +23,7 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
 - [LangFlow](https://dtsx.io/4eRKlxk)
 - [Movies++ app](https://github.com/datastax/movies_plus_plus/)
+
 ---
 
 - Follow Phil at [https://philna.sh/links](https://philna.sh/links)
