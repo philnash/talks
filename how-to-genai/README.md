@@ -6,6 +6,8 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 
 ### Links
 
+- [The example app](https://github.com/philnash/how-to-genai)
+
 - [Artificial Analysis - model comparisons](https://artificialanalysis.ai/)
 - [Getting started with the Gemini API](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=node)
 - [OpenAI's tokenizer example](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=node)
