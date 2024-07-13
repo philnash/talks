@@ -17,7 +17,7 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 - [Astra DB Vectorize](https://dtsx.io/3Y1X3nq)
 - [Get started with Astra DB](https://dtsx.io/3LhINzg)
 
-- [Consuming a fetch as a Stream](https://www.datastax.com/blog/simplifying-vector-embedding-generation-with-astra-vectorize)
+- [Consuming a fetch as a Stream](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams#consuming_a_fetch_as_a_stream)
 
 - [LangChainJS](https://js.langchain.com/v0.2/docs/introduction/)
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
