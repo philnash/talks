@@ -2,7 +2,7 @@
 
 These are the slides for [Phil Nash's](https://philna.sh/) talk "Build RAG from scratch".
 
-## > Slides coming soon <
+## > [The slides](https://philnash.github.io/talks/build-rag-from-scratch/slides.html) <
 
 ### Links
 
