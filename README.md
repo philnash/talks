@@ -7,3 +7,4 @@
 - [Conquering complexity: refactoring JavaScript projects](./conquering-complexity/)
 - [Upgrading JavaScript's Collections](./upgrading-javascripts-collections/)
 - [How to work with generative AI in JavaScript](./how-to-genai/)
+- [Build RAG from scratch](./build-rag-from-scratch/)
