@@ -13,13 +13,12 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work wit
 - [OpenAI's tokenizer example](https://ai.google.dev/gemini-api/docs/get-started/tutorial?lang=node)
 - [Gemini model parameters](https://ai.google.dev/gemini-api/docs/models/generative-models#model-parameters)
 - [Prompt engineering with Gemini](https://ai.google.dev/gemini-api/docs/models/generative-models#prompt101)
-  
 - [What is Retrieval-Augmented Generation?](https://dtsx.io/3zFG1kR)
 - [Embeddings with Gemini](https://ai.google.dev/gemini-api/docs/embeddings)
 - [Astra DB Vectorize](https://dtsx.io/3Y1X3nq)
 - [Get started with Astra DB](https://dtsx.io/3LhINzg)
 
-- [Consuming a fetch as a Stream](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Using_readable_streams#consuming_a_fetch_as_a_stream)
+- [Using Fetch with the Streams API gets you faster UX](https://www.datastax.com/blog/fetch-streams-api-for-faster-ux-generative-ai-apps)
 
 - [LangChainJS](https://js.langchain.com/v0.2/docs/introduction/)
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
