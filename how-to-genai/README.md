@@ -2,7 +2,7 @@
 
 These are the slides for [Phil Nash's](https://philna.sh/) talk "How to work with generative AI in JavaScript".
 
-## > [The slides](https://philnash.github.io/talks/how-to-ai/slides.html) <
+## > [The slides](https://philnash.github.io/talks/how-to-genai/slides.html) <
 
 ### Links
 
