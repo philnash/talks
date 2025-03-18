@@ -4,6 +4,8 @@ These are the slides for [Phil Nash's](https://philna.sh/) talk "Build RAG from 
 
 ## > [The slides](https://philnash.github.io/talks/build-rag-from-scratch/slides.html) <
 
+### > [The example code](https://github.com/philnash/how-to-genai/blob/rag-from-scratch/lib/bag.js#L164) <
+
 ### Links
 
 - [Vector embeddings with a bag of words model](https://www.youtube.com/watch?v=XSEl6deX2lU)
