@@ -8,3 +8,4 @@
 - [Upgrading JavaScript's Collections](./upgrading-javascripts-collections/)
 - [How to work with generative AI in JavaScript](./how-to-genai/)
 - [Build RAG from scratch](./build-rag-from-scratch/)
+- [Build with generative AI in JavaScript (workshop)](./build-with-genai-and-js/)
