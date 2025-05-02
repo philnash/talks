@@ -35,6 +35,7 @@ These are the slides for [Phil Nash's](https://philna.sh/) workshop "Build with 
 
 #### Libraries and tools
 
+- [Promptfoo](https://www.promptfoo.dev/)
 - [LangChainJS](https://js.langchain.com/v0.2/docs/introduction/)
 - [LlamaIndexTS](https://ts.llamaindex.ai/)
 - [LangFlow](https://docs.langflow.org/?utm_medium=event&utm_source=conference&utm_campaign=ndcmelbourne&utm_content=langflow)
