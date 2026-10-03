@@ -9,3 +9,4 @@
 - [How to work with generative AI in JavaScript](./how-to-genai/)
 - [Build RAG from scratch](./build-rag-from-scratch/)
 - [Build with generative AI in JavaScript (workshop)](./build-with-genai-and-js/)
+- [A new class of user](./a-new-class-of-user/)
